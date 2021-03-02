@@ -34,6 +34,7 @@ public class CommonViewModelImplementor extends ViewModel implements CommonViewM
     public void resumelistener() {
         mutableLiveData.setValue(myRepositoryImplementor.getitems().getValue());
         Log.i("log","onresume ");
+        Log.i("log","gitcheck ");
     }
 
     @Override
